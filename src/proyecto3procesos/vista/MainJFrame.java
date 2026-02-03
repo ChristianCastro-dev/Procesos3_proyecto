@@ -128,6 +128,12 @@ public class MainJFrame extends javax.swing.JFrame {
     public void addEliminarActionListener(ActionListener al){
         eliminarJButton.addActionListener(al);
     }
+    public JList<String> getListaContactos(){
+        return contactosJList;
+    }
+    public JList<String> getListaMensages(){
+        return listaMensagesJList;
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton añadirJButton;
